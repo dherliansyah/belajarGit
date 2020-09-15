@@ -19,8 +19,3 @@ const words = ["saya", "belajar", "javascript"];
 for (var i = words.length - 1; i >= 0; i--) {
   console.log(words[i]);
 }
-
-function reverseString(str) {
-  return str;
-}
-reverseString("hello");
