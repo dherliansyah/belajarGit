@@ -10,14 +10,14 @@ const getMonth = (callback) => {
   }, 4000);
 };
 
-const cekbulan = (cek) => {
-  if (Array.isArray(cek)) {
-    cek.map((item) => {
-      console.log(item);
+const tampilBulan = (bulan) => {
+  if (Array.isArray(bulan)) {
+    bulan.map((element) => {
+      console.log(element);
     });
   } else {
-    console.log(cek.message);
+    console.log(bulan.message);
   }
 };
 
-getMonth(cekbulan);
+getMonth(tampilBulan);

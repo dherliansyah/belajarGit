@@ -15,35 +15,35 @@ const cekHariKerja = (day) =>{
 }
 
 // START THEN CATCH
-// cekHariKerja('sabtu')
-//     .then((ress)=>{
-//         console.log("Hari kerja")
-//     })
-//     .catch((err)=>{
-//         console.log(err.message)
-//     })
-//     .finally(()=>{
-//         console.log("selesai")
-//     });
+cekHariKerja('senin')
+    .then((ress)=>{
+        console.log("Hari kerja")
+    })
+    .catch((err)=>{
+        console.log(err.message)
+    })
+    .finally(()=>{
+        console.log("selesai")
+    });
 
     // .then : Apabila janji terpenuhi / data benar maka data tampil
     // .catch : Apabila janji tidak terpenuhi / data kurang tepat 
 // END THEN CATCH
 
 // START TRY CATCH
-const cekhari = async (day) =>{
-    try{
-        let result = await cekHariKerja(day);
-        console.log(`${result} ini hari kerja`)
-        // console.log(result);
-    }catch(error){
-            console.log(error.message);
+// const cekhari = async (day) =>{
+//     try{
+//         let result = await cekHariKerja(day);
+//         console.log(`${result} ini hari kerja`)
+//         // console.log(result);
+//     }catch(error){
+//             console.log(error.message);
 
-    }finally{
-        console.log("selesai")
-    }
-}
-cekhari('minggu')
+//     }finally{
+//         console.log("selesai")
+//     }
+// }
+// cekhari('minggu')
     // .try : Apabila janji terpenuhi / data benar maka dia akan menyimpan seluruh data tampil
     // .catch : Apabila janji tidak terpenuhi / data kurang tepat
 // END TRY CATCH
