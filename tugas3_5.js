@@ -1,13 +1,13 @@
 // START PALINDROME
-function palindrome(str) {
+function palindrome(cek) {
 
-    const x = str.length-1;
+    const x = cek.length-1;
 
-    if( x == 0 || str.length == 0){
+    if( x == 0 || cek.length == 0){
         return "Ini Palindrome"
     }
-    if(str[0] == str[x]){
-        return palindrome(str.slice(1,x))
+    if(cek[0] == cek[x]){
+        return palindrome(cek.slice(1,x))
     }
     return "Data bukan palindrome";
 }
