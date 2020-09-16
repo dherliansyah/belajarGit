@@ -1,21 +1,30 @@
 // START PALINDROME
-// function palindrome(str) {
-//     var x = str.length-1;
+function palindrome(str) {
 
-//     if( x === 0 || str.length === 0){
-//         return "Ini Palindrome"
-//     }
-//     if(str[0] === str[x]){
-//         return palindrome(str.slice(1,x))
-//     }return "Data bukan palindrome";
-// }
+    const x = str.length-1;
 
-//     console.log(palindrome("malam")) // true
+    if( x == 0 || str.length == 0){
+        return "Ini Palindrome"
+    }
+    if(str[0] == str[x]){
+        return palindrome(str.slice(1,x))
+    }
+    return "Data bukan palindrome";
+}
+    console.log(palindrome("malam")) 
+
 
 // START REVERSE
 
-const words = ["saya", "belajar", "javascript"];
+const str = 'saya belajar javascript';
 
-for (var i = words.length - 1; i >= 0; i--) {
-  console.log(words[i]);
-}
+const words = str.split(' ');
+console.log(words[2] , words[1] , words[0] );
+
+
+
+
+
+
+
+

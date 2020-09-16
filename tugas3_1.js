@@ -5,6 +5,7 @@ const cekHariKerja = (day) =>{
             let cek = dataDay.find((item)=>{
                 return item == day
             })
+            
             if(cek){
                 resolve(cek)
             }else{
@@ -16,7 +17,7 @@ const cekHariKerja = (day) =>{
 }
 
 // START THEN CATCH
-cekHariKerja('senin')
+cekHariKerja("23")
     .then((ress)=>{
         console.log("Hari kerja")
     })
@@ -44,7 +45,7 @@ cekHariKerja('senin')
 //         console.log("selesai")
 //     }
 // }
-// cekhari('senin')
+// cekhari('sabtu')
     // .try : Apabila janji terpenuhi / data benar maka dia akan menyimpan seluruh data tampil
     // .catch : Apabila janji tidak terpenuhi / data kurang tepat
 // END TRY CATCH
