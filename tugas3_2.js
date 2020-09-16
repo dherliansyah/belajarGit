@@ -11,7 +11,7 @@ const getMonth = (callback) => {
 };
 
 const tampilBulan = (cek,bulan) => {
-  if (Array.isArray(bulan)) {
+  if ((bulan)) {
     bulan.map((element) => {
       console.log(element);
     });

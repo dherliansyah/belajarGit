@@ -12,6 +12,7 @@ const cekHariKerja = (day) =>{
             }
         },3000)
     })
+
 }
 
 // START THEN CATCH
@@ -26,8 +27,8 @@ cekHariKerja('senin')
         console.log("selesai")
     });
 
-    // .then : Apabila janji terpenuhi / data benar maka data tampil
-    // .catch : Apabila janji tidak terpenuhi / data kurang tepat 
+    // .then : Apabila janji terpenuhi / data benar maka data tampil (menangkap dari resolve di promise)
+    // .catch : Apabila janji tidak terpenuhi / data kurang tepat (menangkap dari reject di promise)
 // END THEN CATCH
 
 // START TRY CATCH
@@ -43,7 +44,7 @@ cekHariKerja('senin')
 //         console.log("selesai")
 //     }
 // }
-// cekhari('minggu')
+// cekhari('senin')
     // .try : Apabila janji terpenuhi / data benar maka dia akan menyimpan seluruh data tampil
     // .catch : Apabila janji tidak terpenuhi / data kurang tepat
 // END TRY CATCH
