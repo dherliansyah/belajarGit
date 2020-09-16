@@ -15,6 +15,8 @@ const tampilBulan = (cek,bulan) => {
     bulan.map((element) => {
       console.log(element);
     });
+  }else{
+    console.log(cek.message)
   }
 };
 
