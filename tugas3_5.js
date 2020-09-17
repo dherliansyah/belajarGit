@@ -1,6 +1,5 @@
 // START PALINDROME
 function palindrome(cek) {
-
     const x = cek.length-1;
 
     if( x == 0 || cek.length == 0){
@@ -17,7 +16,7 @@ function palindrome(cek) {
 // START REVERSE
 
 const str = 'saya belajar javascript' ;
-    if(typeof str != 'string'){
+    if(typeof str !== 'string'){
         console.log("data harus string / data tidak boleh kosong")
     }else{
 const words = str.split(' ');
