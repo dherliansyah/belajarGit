@@ -11,13 +11,13 @@ function palindrome(cek) {
     }
     return "Data bukan palindrome";
 }
-    console.log(palindrome("malam")) 
+    console.log(palindrome("malam")); 
 
 
 // START REVERSE
 
-const str = "Saya Belajar Javascript";
-    if(typeof str != 'string' || str == null){
+const str = 'saya belajar javascript' ;
+    if(typeof str != 'string'){
         console.log("data harus string / data tidak boleh kosong")
     }else{
 const words = str.split(' ');
