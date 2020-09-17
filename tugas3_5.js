@@ -16,10 +16,13 @@ function palindrome(cek) {
 
 // START REVERSE
 
-const str = 'saya belajar javascript';
-
+const str = "Saya Belajar Javascript";
+    if(typeof str != 'string' || str == null){
+        console.log("data harus string / data tidak boleh kosong")
+    }else{
 const words = str.split(' ');
 console.log(words[2] , words[1] , words[0] );
+    }
 
 
 
