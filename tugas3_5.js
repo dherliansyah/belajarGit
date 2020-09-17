@@ -10,7 +10,8 @@ function palindrome(cek) {
     }
     return "Data bukan palindrome";
 }
-    console.log(palindrome("malam")); 
+    console.log(palindrome("malam"));
+    console.log(palindrome("alam")); 
 
 
 // START REVERSE
