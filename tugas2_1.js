@@ -8,7 +8,7 @@
 
 
 // 2. START SORT
-    const dataSort = ["d","g","f","z","a"];
+    const dataSort = ["f","a","s","b"];
         dataSort.sort();
         console.log(dataSort);
 // Metode ini berfungsi untuk mengurutkan elemen pada array baik secara ascending atau descending.

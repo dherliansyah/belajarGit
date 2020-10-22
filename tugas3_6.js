@@ -1,5 +1,6 @@
 const data = (angka) => {
-  if (typeof angka !== "string" && angka !== undefined) {
+  if (typeof angka =='number' || typeof angka == 'string') {
+    
     let cekString = angka.toString().split("0")
     let cekMap = cekString.map((item) => [...item].sort((a, b) => a - b));
     let cekJoin = cekMap.join("");

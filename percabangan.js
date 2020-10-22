@@ -8,19 +8,31 @@ if (saya == "irvan" || sekolah == "smk") {
   console.log("salah");
 }
 
-// Switch Case
-switch (saya) {
-  case saya == "irvan":
-    console.log("benar");
-    break;
-  case "anjas":
-    console.log("benar");
-    break;
 
-  default:
-    console.log("bukan kedua-duanya");
-    break;
-}
+
+
+
+
+
+
+
+
+
+
+
+// Switch Case
+// switch (saya) {
+//   case saya == "irvan":
+//     console.log("benar");
+//     break;
+//   case "anjas":
+//     console.log("benar");
+//     break;
+
+//   default:
+//     console.log("bukan kedua-duanya");
+//     break;
+// }
 
 //Ternary Operator
 // console.log(
